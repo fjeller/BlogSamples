@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Das ist eine kleine Beispielapplikation, die die Verwendung des <code>ActionTagHelper</code> zeigt.</p>
+    <p>
+		Leider hat sich Microsoft entschieden, die häufig verwendete Funktionalität <code>@@Html.Action()</code> aus dem Repertoire von ASP.NET MVC zu entfernen und sie gewissermaßen ersatzlos zu streichen.
+        Die Komponenten, die stattdessen verwendet werden sollen, sind leider von der Funktionalität her komplett anders aufgebaut und daher kein 1:1 Ersatz (tatsächlich ist es recht
+        aufwändig, will man jedes Auftreten von <code>@@Html.Action()</code> durch Komponenten ersetzen).
+    </p>
+    <p>
+		Der hier vorgestellte TagHelper bietet die gleiche Funktionalität - eben als TagHelper, und nicht über <code>@@Html</code>.
+	</p>
+</div>
+
+@* Der Taghelper muss einen öffnenden und schließenden Tag haben! *@
+<Action asp-action="Test1" asp-controller="Home"></Action>
+
+<action asp-action="Test2" asp-controller="Home" asp-route-id="5"></action>

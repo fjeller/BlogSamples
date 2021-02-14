@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionTagHelperSample", "ActionTagHelperSample\ActionTagHelperSample.csproj", "{B77946F4-FAE9-4861-B2A8-16388A6B7532}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B77946F4-FAE9-4861-B2A8-16388A6B7532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77946F4-FAE9-4861-B2A8-16388A6B7532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77946F4-FAE9-4861-B2A8-16388A6B7532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77946F4-FAE9-4861-B2A8-16388A6B7532}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE20D2BD-62C9-471E-9634-28A1CF8FF41A}
+	EndGlobalSection
+EndGlobal
